@@ -1,0 +1,3 @@
+[console_scripts]
+historia = narrativa.cli:main
+narrativa = narrativa.cli:main

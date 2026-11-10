@@ -1,0 +1,15 @@
+# A história do exemplo original do Gemini, agora funcionando de verdade
+Maria tem 3 maçãs.
+Maria mora em "São Paulo".
+João tem 0 maçãs e 0 moedas.
+
+Maria diz: "Eu moro em {maria.cidade} e tenho {maria.maçãs} maçãs."
+
+Enquanto Maria tiver maçãs faça:
+    Maria dá 1 maçã para João.
+    João ganha 2 moedas.
+Fim do laço.
+
+João diz: "Obrigado Maria! Agora eu tenho {joão.maçãs} maçãs e {joao.moedas} moedas."
+
+Mostre tudo.

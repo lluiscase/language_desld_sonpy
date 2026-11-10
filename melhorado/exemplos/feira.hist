@@ -1,0 +1,34 @@
+# Mostra capítulos (funções), Repita, Se/Senão se/Senão, perguntas e "e"/"ou"
+Narrador: "Era uma vez uma feira no interior."
+
+Ana tem 10 maçãs, 4 peras e 20 moedas.
+Ana é "Feirante".
+Pedro tem 15 moedas.
+
+Capítulo Venda:
+    Ana dá 1 maçã para Pedro.
+    Pedro dá 3 moedas para Ana.
+Fim do capítulo.
+
+Repita 3 vezes:
+    Conte o capítulo Venda.
+Fim da repetição.
+
+Ana tem mais moedas que Pedro?
+Pedro tem pelo menos 3 maçãs?
+
+Se Pedro tiver mais de 5 moedas então:
+    Pedro diz: "Ainda tenho {pedro.moedas} moedas, vou comprar uma pera."
+    Ana dá uma pera para Pedro e Pedro dá 2 moedas para ela.
+Senão se Pedro tiver moedas então:
+    Pedro diz: "Só me resta pouco dinheiro."
+Senão:
+    Pedro diz: "Acabou meu dinheiro!"
+Fim do se.
+
+Se Ana é "Feirante" e Ana não tiver nenhuma banana então Ana diz: "Amanhã trago bananas!"
+
+Ana dobra suas moedas.
+Ana diz: "Fechei o dia com {ana.moedas} moedas."
+Mostre Ana.
+Mostre Pedro.

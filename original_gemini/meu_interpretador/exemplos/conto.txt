@@ -1,0 +1,13 @@
+Maria tem 3 maçãs.
+João tem 0 maçãs.
+João tem 0 moedas.
+
+Maria diz: "Eu tenho {maria.maçã} maçãs e vou dar para você, João!"
+
+Enquanto Maria tiver maçãs faça:
+    Maria dá 1 maçã para João.
+    João ganha 2 moedas.
+Fim do laço.
+
+João diz: "Agora eu tenho {joao.maçã} maçãs e {joao.moeda} moedas."
+Mostre tudo

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linguagem-narrativa"
+version = "0.2.0"
+description = "Uma linguagem de programação em português que se escreve como uma história."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+narrativa = "narrativa.cli:main"
+historia = "narrativa.cli:main"
+
+[tool.setuptools]
+packages = ["narrativa"]

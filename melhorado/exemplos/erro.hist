@@ -1,0 +1,5 @@
+# Exemplo de erro: o bloco "Enquanto" é fechado com o "Fim" errado
+Maria tem 2 maçãs.
+Enquanto Maria tiver maçãs faça:
+    Maria perde 1 maçã.
+Fim do se.
